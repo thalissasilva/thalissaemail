@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Adicione a meta tag de codificação aqui -->
+    <style>
+        .signature {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #a1a4a5;
+    line-height: 0;
+    background-image: url('assinatura aprovada.png');
+    background-size: 800px 200px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.name,
+.title,
+.contact {
+    margin: 0;
+    line-height: 1; /* Aplicando a todos os elementos de texto na assinatura */
+}
+.content {
+    margin-left: 250px; /* Move o conteúdo interno para a direita */
+}
+
+
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #FAF7F8; /* Altera a cor do nome para #FAF7F8 */
+}
+
+.title {
+    margin: 0;
+    color: #105DA1; /* Altera a cor do título para #105DA1 */
+}
+
+.contact {
+    margin-bottom: 1px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #a1a4a5;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contact.email::before {
+    background-image: url('e-mail.png');
+}
+
+.contact.website::before {
+    background-image: url('local-na-rede-internet (1).png');
+}
+
+.contact.phone::before {
+    background-image: url('ligar.png');
+}
+
+.contact.address::before {
+    background-image: url('localizacao.png');
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.disclaimer {
+            margin-top: 20px;
+            width: 800px; /* Largura do bloco de texto */
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px; /* Tamanho da fonte */
+            line-height: 1.4; /* Espaçamento entre linhas */
+            color: #a1a4a5;
+}
+    </style>
+</head>
+<body>                 
+    <div class="signature">
+        <div class="content">
+        <p class="name">Thalissa Silva</p>
+        <p class="title">Desenvolvimento de Marketing</p>
+        <div class="contact-info">
+            <p class="contact email"><a href="mailto:thalissa.silva@sysmaqautomacao.com.br">thalissa.silva@sysmaqautomacao.com.br</a></p>
+            <p class="contact website"><a href="http://sysmaqautomacao.com.br">sysmaq.com.br</a></p>
+            <p class="contact phone">(19) 3245-0449 - (19) 98392-0190</p>
+            <p class="contact address">Rua Sebastião Pedro Franceschini, 116 - Pq. Via Norte - CEP: 13065-701</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/company/sysmaq-automacaoindustrial/mycompany/?viewAsMember=true"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/SysMaq.Automacao.Industrial"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/sysmaqautomacaoindustrial/?igshid=MzRlODBiNWFlZA%3D%3D"><img src="instagram.png" alt="Instagram"></a>
+            <a href="http://sysmaqautomacao.com.br"><img src="local-na-rede-internet (2).png" alt="Website"></a>
+            <a class="map-link" href="https://www.google.com/maps/place/Sysmaq+Automa%C3%A7%C3%A3o+Industrial/@-22.8752225,-47.1291901,15z/data=!4m6!3m5!1s0x94c8c78278a76d2b:0xb2e94ff9b2a02703!8m2!3d-22.8752225!4d-47.1291901!16s%2Fg%2F1ptwfsc9m"><img src="mapas-do-google.png" alt="Endereço"></a>
+        </div>
+        <div class="social-icons">
+        </div>
+    </div>
+</div>
+
+<div class="disclaimer">
+    <p>As informações contidas nesta mensagem podem ser proprietárias e confidenciais da Sysmaq e protegidas de divulgação. Se o leitor desta mensagem não for o destinatário pretendido ou um funcionário ou agente responsável por entregar esta mensagem ao destinatário pretendido, você está ciente que qualquer disseminação, distribuição ou cópia desta comunicação ou uso das informações contidas aqui é estritamente proibida. Se você recebeu esta comunicação por engano, por favor, notifique o remetente imediatamente respondendo esta mensagem e exclua a mensagem do seu computador.</p>
+    <p>The information contained in this message may be proprietary and confidential to Sysmaq and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution, or copying of this communication or use of the information contained herein is strictly prohibited. If you have received this communication in error, please notify the sender immediately by replying to the message and delete the message from your computer.</p>
+</div>
+</body>
+</html>
